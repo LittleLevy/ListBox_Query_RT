@@ -1,0 +1,110 @@
+Name: Motors
+Id: g=db48e1bd8dcbe6273b40c651fe703cd4
+Type: FolderType
+Children:
+- Name: Motor1
+  Type: MotorType
+  Children:
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: Model
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RX10B"
+- Name: Motor2
+  Type: MotorType
+  Children:
+  - Name: Acceleration
+    Id: g=c44c863371072263360504213dd7800b
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 20
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+  - Name: Model
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RX10A"
+- Name: Motor3
+  Type: MotorType
+  Children:
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 30
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3
+  - Name: Model
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RX10B"
+- Name: Motor4
+  Type: MotorType
+  Children:
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 40
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 4
+  - Name: Model
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RX10B"
+- Name: Motor5
+  Type: MotorType
+  Children:
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 50
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3
+  - Name: Model
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RX10A"
+- Name: Motor6
+  Type: MotorType
+  Children:
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 60
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 6
+  - Name: Model
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RX15A"
+- Name: Motor7
+  Type: MotorType
+  Children:
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 70
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 7
+  - Name: Model
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RX15A"
